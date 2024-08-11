@@ -123,7 +123,6 @@ function Friend({ friend, onSelection, selectedFriend, handleDelete }) {
 
       <div className="btn">
         <Button onClick={() => onSelection(friend)}>
-          select
           {isSelected ? "Close" : "Select"}
         </Button>
 
